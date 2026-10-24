@@ -17,7 +17,7 @@ app.disable("x-powered-by");
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:5173",
+    origin: process.env.CLIENT_URL || "https://login-page-r7cr9dpwu-aswin-3559.vercel.app/login",
     credentials: true,
   })
 );

@@ -260,7 +260,7 @@ export default function Login() {
               Local demo credentials
             </p>
             <p className="mt-2 break-all text-sm text-slate-700">
-              Email: demo@nexadesk.dev
+              Email: aswin@nexadesk.dev
             </p>
             <p className="mt-1 text-sm text-slate-700">
               Password: Nexa@12345
