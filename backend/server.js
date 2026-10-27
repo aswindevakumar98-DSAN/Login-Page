@@ -5,7 +5,6 @@ import express from "express";
 import cors from "cors";
 import session from "express-session";
 import authRoutes from "./routes/authRoutes.js";
-const express = require("express");
 
 const app = express();
 const PORT = Number(process.env.PORT) || 5000;
