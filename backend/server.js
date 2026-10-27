@@ -68,6 +68,6 @@ app.use((error, _req, res, _next) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`NexaDesk API running at http://localhost:${PORT}`);
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`NexaDesk API running on port ${PORT}`);
 });
