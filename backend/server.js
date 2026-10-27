@@ -5,6 +5,7 @@ import express from "express";
 import cors from "cors";
 import session from "express-session";
 import authRoutes from "./routes/authRoutes.js";
+const express = require("express");
 
 const app = express();
 const PORT = Number(process.env.PORT) || 5000;
@@ -17,7 +18,7 @@ app.disable("x-powered-by");
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "https://login-page-r7cr9dpwu-aswin-3559.vercel.app/login",
+    origin: process.env.CLIENT_URL || "http://localhost:5173",
     credentials: true,
   })
 );
